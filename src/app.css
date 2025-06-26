@@ -1,3 +1,26 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--color-maroon-flush-50: #fcf3f7;
+	--color-maroon-flush-100: #fbe8f0;
+	--color-maroon-flush-200: #f9d1e2;
+	--color-maroon-flush-300: #f5acc9;
+	--color-maroon-flush-400: #ee78a4;
+	--color-maroon-flush-500: #e45082;
+	--color-maroon-flush-600: #c42a57;
+	--color-maroon-flush-700: #b62047;
+	--color-maroon-flush-800: #971d3b;
+	--color-maroon-flush-900: #7e1d35;
+	--color-maroon-flush-950: #4d0a1b;
+}
+
+@theme inline {
+	--font-bitter: 'Bitter', serif;
+	--font-raleway: 'Raleway', sans-serif;
+}
+
+body {
+	font-family: var(--font-raleway);
+}
