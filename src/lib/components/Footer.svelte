@@ -2,11 +2,11 @@
 	const menuOptions = ['Home', 'About', 'The Problem', 'How it works', 'Stories', 'Contact'];
 	const socialLinks = ['Facebook', 'X', 'YouTube', 'Instagram'];
 	const logos = [
-		'logos/indiagovin.png',
-		'logos/matribandana.png',
-		'logos/poshanabhiyan.png',
-		'logos/towardsanewdawn.png',
-		'logos/childmarriagefree.png'
+		'logos/indiagovin.avif',
+		'logos/matribandana.avif',
+		'logos/poshanabhiyan.avif',
+		'logos/towardsanewdawn.avif',
+		'logos/childmarriagefree.avif'
 	];
 </script>
 
