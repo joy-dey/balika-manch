@@ -181,7 +181,7 @@
 	id="home"
 >
 	<div class="container mx-auto">
-		<div class="flex flex-col items-center justify-center gap-10 lg:flex-row">
+		<div class="flex flex-col items-center justify-center gap-10 pt-6 lg:flex-row">
 			<div class="col-span-12 content-center space-y-6 landscape:col-span-6">
 				<h1 class="font-bitter text-maroon-flush-900 text-5xl font-bold md:text-6xl lg:text-7xl">
 					Where Girls Rise — Not as Brides, But as Leaders
