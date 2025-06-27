@@ -11,7 +11,7 @@
 			{#each menuOptions as option}
 				<a
 					href={`#${option.split(' ').join('-').toLowerCase()}`}
-					class="hover:bg-maroon-flush-500 focus:border-maroon-flush-500 rounded-4xl border border-dashed border-transparent px-3 py-2.5 capitalize hover:text-white focus:outline-0"
+					class="last-of-type:bg-maroon-flush-500 hover:bg-maroon-flush-500 focus:border-maroon-flush-500 rounded-4xl border border-dashed border-transparent px-3 py-2.5 font-medium capitalize last-of-type:text-white hover:text-white focus:outline-0"
 					>{option}</a
 				>
 			{/each}
