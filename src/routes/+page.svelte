@@ -4,7 +4,7 @@
 			said: 'If women hold high positions, society will be much more prosperous and developed. Because if mothers and sisters are not protected, no progress can be made.',
 			by: {
 				name: 'Prof. Dr. Manik Saha',
-				image: 'image/manik-saha.png',
+				image: 'image/manik-saha.avif',
 				post: "Hon'ble Chief Minister, Tripura"
 			}
 		},
@@ -12,7 +12,7 @@
 			said: "If a girl is forced into marriage before she's ready, we don't just lose a student — we lose a future. Balika Manch was built to stop that from happening.",
 			by: {
 				name: 'Saju Vaheed',
-				image: 'image/saju-vaheed.png',
+				image: 'image/saju-vaheed.avif',
 				post: 'IAS, District Magistrate'
 			}
 		}
@@ -177,7 +177,7 @@
 
 <!-- landing section -->
 <section
-	class="bg-maroon-flush-50 flex min-h-[110vh] items-center justify-center bg-[url(image/smiling-school-girls.png)] bg-cover p-6 py-16 bg-blend-overlay"
+	class="bg-maroon-flush-50 flex min-h-[110vh] items-center justify-center bg-[url(image/smiling-school-girls.avif)] bg-cover p-6 py-16 bg-blend-overlay"
 	id="home"
 >
 	<div class="container mx-auto">
@@ -206,7 +206,7 @@
 				</div>
 			</div>
 			<div class="col-span-12 flex w-full flex-col landscape:col-span-6">
-				<img src="image/photo-collage.png" alt="" class="h-auto w-11/12" />
+				<img src="image/photo-collage.avif" alt="" class="h-auto w-11/12" />
 				<div class="mt-8 flex flex-wrap gap-4 lg:flex-nowrap">
 					<div class="flex w-full items-center gap-2 rounded-full bg-white px-6 py-4">
 						<p class="text-maroon-flush-600 text-3xl font-bold">150+</p>
@@ -229,7 +229,7 @@
 		<div class="flex flex-col gap-8 md:flex-row">
 			<div class="items-stretch md:w-1/2 lg:w-4/12">
 				<img
-					src="image/ias-saju-giving-speech.png"
+					src="image/ias-saju-giving-speech.avif"
 					alt="IAS Saju giving speech"
 					class="h-full w-full rounded-3xl object-cover object-left"
 				/>
@@ -317,7 +317,7 @@
 			</blockquote>
 			<div class="">
 				<img
-					src="image/image-of-a-small-girl-showing-hena.png"
+					src="image/image-of-a-small-girl-showing-hena.avif"
 					alt=""
 					class="rounded-3xl grayscale"
 				/>
