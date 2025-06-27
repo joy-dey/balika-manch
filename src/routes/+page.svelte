@@ -178,6 +178,7 @@
 <!-- landing section -->
 <section
 	class="bg-maroon-flush-50 flex min-h-[110vh] items-center justify-center bg-[url(image/smiling-school-girls.png)] bg-cover p-6 py-16 bg-blend-overlay"
+	id="home"
 >
 	<div class="container mx-auto">
 		<div class="flex flex-col items-center justify-center gap-10 lg:flex-row">
@@ -606,7 +607,7 @@
 		class="to-maroon-flush-300 container mx-auto rounded-3xl bg-gradient-to-r from-transparent p-6"
 	>
 		<div class="flex flex-wrap items-center lg:flex-nowrap">
-			<img src="image/breaking barriers-cuate.svg" alt="" class="max-w-sm" />
+			<img src="image/breaking barriers-cuate.svg" alt="" class="w-full max-w-sm" />
 			<div class="group">
 				<h3 class="font-bitter text-maroon-flush-800 mb-2 text-3xl font-semibold">
 					When Girls Break Walls, Change Follows
