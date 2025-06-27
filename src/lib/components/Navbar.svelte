@@ -6,6 +6,8 @@
 	let isMenuOpen = $state(false);
 	let menuRef = $state(null);
 	let buttonRef = $state(null);
+	let showButton = $state(false);
+	let scrollTimeout;
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
@@ -23,10 +25,27 @@
 
 	onMount(() => {
 		document.addEventListener('click', handleClickOutside);
+
+		return () => {
+			document.removeEventListener('click', handleClickOutside);
+		};
 	});
 
-	onDestroy(() => {
-		document.removeEventListener('click', handleClickOutside);
+	function handleScroll() {
+		showButton = true;
+
+		clearTimeout(scrollTimeout);
+		scrollTimeout = setTimeout(() => {
+			showButton = false;
+		}, 1500); // 2 seconds after scroll stops
+	}
+
+	onMount(() => {
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
 	});
 </script>
 
@@ -66,8 +85,11 @@
 <button
 	onclick={() => toggleMenu()}
 	bind:this={buttonRef}
-	class="from-maroon-flush-500 to-maroon-flush-700 group fixed bottom-4 left-1/2 z-50 flex -translate-x-1/2 flex-col items-center justify-center gap-1.5 rounded-3xl bg-gradient-to-b p-4 text-white md:hidden"
+	class="from-maroon-flush-500 to-maroon-flush-700 group fixed bottom-4 left-1/2 z-50 flex -translate-x-1/2 flex-col items-center justify-center gap-1.5 rounded-3xl bg-gradient-to-b p-4 text-white transition-all duration-200 ease-in-out md:hidden starting:scale-100 starting:opacity-100"
 	aria-label="menu toggler"
+	class:opacity-0={!showButton}
+	class:scale-0={!showButton}
+	class:pointer-events-none={!showButton}
 >
 	<div class="rounded-lg bg-white/10 p-2">
 		<svg
