@@ -596,6 +596,7 @@
 					referrerpolicy="strict-origin-when-cross-origin"
 					allowfullscreen
 					class="aspect-video h-56 w-full rounded-2xl"
+					loading="lazy"
 				></iframe>
 			{/each}
 		</div>
