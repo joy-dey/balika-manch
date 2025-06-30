@@ -25,7 +25,6 @@
 
 	onMount(() => {
 		document.addEventListener('click', handleClickOutside);
-
 		return () => {
 			document.removeEventListener('click', handleClickOutside);
 		};
@@ -37,12 +36,11 @@
 		clearTimeout(scrollTimeout);
 		scrollTimeout = setTimeout(() => {
 			if (!isMenuOpen) showButton = false;
-		}, 1500); // 2 seconds after scroll stops
+		}, 1500);
 	}
 
 	onMount(() => {
 		window.addEventListener('scroll', handleScroll);
-
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
 		};
@@ -103,5 +101,5 @@
 			></path></svg
 		>
 	</div>
-	<span>Menu</span>
+	<span class="text-sm">Menu</span>
 </button>
