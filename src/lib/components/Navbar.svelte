@@ -36,7 +36,7 @@
 
 		clearTimeout(scrollTimeout);
 		scrollTimeout = setTimeout(() => {
-			showButton = false;
+			if (!isMenuOpen) showButton = false;
 		}, 1500); // 2 seconds after scroll stops
 	}
 
