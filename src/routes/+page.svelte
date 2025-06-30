@@ -167,6 +167,17 @@
 		name="description"
 		content="Balika Manch is a girl-led, school-based movement in Tripura that empowers students to prevent child marriages and support each other through education."
 	/>
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://balikamanch.org" />
+	<meta property="og:title" content="Balika Manch - A Girl-Led Movement in Tripura" />
+	<meta
+		property="og:description"
+		content="Balika Manch is a girl-led, school-based movement in Tripura that empowers students to prevent child marriages and support each other through education."
+	/>
+	<meta property="og:image" content="https://balikamanch.org/og.png" />
+
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
