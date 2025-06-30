@@ -153,7 +153,7 @@
 		},
 		{
 			title: 'Marriages Prevented',
-			value: 158,
+			value: 468,
 			description:
 				'Child marriages that were stopped thanks to timely alerts and district response.',
 			icon: 'shield-check-line'
