@@ -27,11 +27,12 @@
 							<img {src} alt="" class="h-10 w-10 last-of-type:w-24" />
 						{/each}
 					</div>
-					<p class="font-sans text-xs font-semibold">
+					<p class="space-x-2 font-sans text-xs font-semibold">
 						&copy;2025 Balikamanch. Designed by <a
 							href="https://xlayertechnologies.com"
 							title="by XLDBF1AA1">xLayer Technologies</a
 						>
+						<a href="https://storyset.com" class="sr-only font-normal">Illustrations by Storyset</a>
 					</p>
 				</div>
 			</div>
