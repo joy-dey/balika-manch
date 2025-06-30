@@ -62,28 +62,28 @@
 
 	const timelineSteps = [
 		{
-			icon: 'eye-line',
+			image: 'image/social-anxiety.svg',
 			title: 'A Concern is Noticed',
 			description:
-				'A member spots signs like long absences, sudden dropouts, or fear at home. This is often the first indication of a possible child marriage risk.'
+				'It starts with something small — a girl missing school for days, a sudden withdrawal, or signs of fear and pressure at home. These are often red flags noticed by classmates, teachers, or club members. By staying alert to these changes, Balika Manch clubs are able to catch early signs of potential child marriage risks.'
 		},
 		{
-			icon: 'message-2-line',
+			image: 'image/mobile-inbox.svg',
 			title: 'Alert Raised in WhatsApp Group',
 			description:
-				'The chairperson or teacher coordinator reports the case through a district-level WhatsApp group, alerting officials and child protection teams.'
+				'Once a concern is identified, the girl-led club’s chairperson or teacher coordinator shares the details in a district-level WhatsApp group. This direct line includes the District Magistrate, child protection officers, and police — ensuring the case is escalated immediately and confidentially, without delays or paperwork.'
 		},
 		{
-			icon: 'police-car-line',
+			image: 'image/police-car.svg',
 			title: 'Authorities Respond in Real-Time',
 			description:
-				'Police and district officials visit the family, investigate the situation, and counsel the parents — often preventing the marriage from proceeding.'
+				'Within hours, local authorities and protection staff visit the home to speak with the girl and her family. They assess the situation, intervene if a marriage is being planned, and provide counseling to help the family understand the legal and emotional harm. This quick, on-ground response is what prevents the marriage before it can happen.'
 		},
 		{
-			icon: 'user-add-line',
+			image: 'image/high-school.svg',
 			title: 'The Girl is Supported to Rejoin School',
 			description:
-				'With financial and emotional support, the girl re-enters school safely — often with ₹5,000 rejoining aid and ongoing peer support.'
+				'After stopping the marriage, the system doesn’t stop at intervention — it helps her continue her education. Through ₹5,000 financial aid, emotional support from teachers, and encouragement from peers, the girl is reintegrated into school life with dignity and strength. This step ensures she doesn’t just escape harm — she regains her future.'
 		}
 	];
 
@@ -368,31 +368,30 @@
 			</div>
 		</div>
 		<div class="pt-10">
-			<div class="">
-				<div class="mb-8">
+			<div class="flex w-full flex-col gap-10">
+				<div class="group">
 					<h4 class="font-bitter text-3xl font-semibold">
-						<span class="text-maroon-flush-600">From Concern to Action</span>
+						<span class="text-maroon-flush-600">From Concern</span> to Action
 					</h4>
 					<p class="mb-4 text-xl">How Balika Manch Clubs Intervene to Protect Girls</p>
 				</div>
-				<div
-					class="before:bg-maroon-flush-200 relative before:absolute before:h-full before:w-0.5 before:content-['']"
-				>
-					<div class="space-y-6">
-						{#each timelineSteps as { icon, title, description }}
-							<div
-								class="before:bg-maroon-flush-500 relative pl-6 before:absolute before:top-2 before:-left-2 before:h-4 before:w-4 before:rounded-4xl before:border-2 before:border-white before:content-['']"
-							>
-								<p class="text-xl font-semibold">{title}</p>
-								<span>{description}</span>
+				<div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+					{#each timelineSteps as { image, title, description }}
+						<div class="flex flex-col flex-wrap items-center gap-8">
+							<div class="w-full rounded-4xl bg-white p-10">
+								<img src={image} alt="" class="w-full" />
 							</div>
-						{/each}
-					</div>
+							<div class="w-full space-y-2.5">
+								<p class="text-3xl font-semibold">{title}</p>
+								<span class="block text-lg text-zinc-500">{description}</span>
+							</div>
+						</div>
+					{/each}
 				</div>
 			</div>
 		</div>
 		<div
-			class="border-maroon-flush-500 mt-10 flex flex-col items-center gap-4 rounded-3xl border-l-4 bg-white p-4 md:flex-row"
+			class="border-maroon-flush-500 mt-16 mb-16 flex flex-col items-center gap-4 rounded-3xl border-l-4 bg-white p-4 md:flex-row"
 		>
 			<img src="image/brain.svg" alt="" />
 			<div class="space-y-2">
