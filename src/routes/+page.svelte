@@ -220,7 +220,7 @@
 				<img src="image/photo-collage.avif" alt="" class="h-auto w-11/12" />
 				<div class="mt-8 flex flex-wrap gap-4 lg:flex-nowrap">
 					<div class="flex w-full items-center gap-2 rounded-full bg-white px-6 py-4">
-						<p class="text-maroon-flush-600 text-3xl font-bold">150+</p>
+						<p class="text-maroon-flush-600 text-3xl font-bold">450+</p>
 						<p class="text-sm capitalize">child marriages prevented</p>
 					</div>
 					<div class="flex w-full items-center gap-2 rounded-full bg-white px-6 py-4">
