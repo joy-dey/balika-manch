@@ -388,8 +388,8 @@
 				</div>
 				<div class="grid grid-cols-1 gap-10 md:grid-cols-2">
 					{#each timelineSteps as { image, title, description }}
-						<div class="flex flex-col flex-wrap items-center gap-8">
-							<div class="w-full rounded-4xl bg-white p-10">
+						<div class="flex flex-col flex-wrap gap-4">
+							<div class="w-6/12 rounded-4xl bg-white/5">
 								<img src={image} alt="" class="w-full" />
 							</div>
 							<div class="w-full space-y-2.5">
