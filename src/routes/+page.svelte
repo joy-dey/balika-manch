@@ -617,7 +617,7 @@
 
 <section class="scroll-m-10 p-6 py-16" id="contact">
 	<div
-		class="to-maroon-flush-300 container mx-auto rounded-3xl bg-gradient-to-r from-transparent p-6"
+		class="to-maroon-flush-300 via-maroon-flush-50 container mx-auto rounded-3xl bg-gradient-to-b from-transparent p-6 md:bg-gradient-to-r"
 	>
 		<div class="flex flex-wrap items-center lg:flex-nowrap">
 			<img src="image/breaking barriers-cuate.svg" alt="" class="w-full max-w-sm" />
