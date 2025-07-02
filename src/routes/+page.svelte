@@ -209,11 +209,13 @@
 						>- Rupa, Class 8, South Tripura</cite
 					>
 				</blockquote>
-				<div class="flex gap-4">
-					<button class="bg-maroon-flush-600 rounded-full p-2.5 px-5 font-semibold text-white"
-						>Join the movement</button
+				<div class="flex items-center gap-4">
+					<a
+						href="#contact"
+						class="bg-maroon-flush-600 rounded-full p-2.5 px-5 font-semibold text-white"
+						>Join the movement</a
 					>
-					<button class="text-maroon-flush-600 font-semibold">See the impact</button>
+					<a href="#impact" class="text-maroon-flush-600 font-semibold">See the impact</a>
 				</div>
 			</div>
 			<div class="col-span-12 flex w-full flex-col landscape:col-span-6">
@@ -414,7 +416,7 @@
 			</div>
 		</div>
 
-		<div class="pt-10">
+		<div class="scroll-m-10 pt-10" id="impact">
 			<h3
 				class="font-bitter after:bg-maroon-flush-600 mb-4 text-4xl font-medium after:ml-3 after:inline-block after:h-1 after:w-20 after:-translate-y-1/2 after:content-['']"
 			>
