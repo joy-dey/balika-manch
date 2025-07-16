@@ -39,22 +39,22 @@
 
 	const teamComposition = [
 		{
-			image: 'icons/voice-icon.svg',
+			image: 'image/chairperson.svg',
 			title: 'Chairperson',
 			description: 'Female teacher who leads and facilitates the club'
 		},
 		{
-			image: 'icons/community-icon.svg',
+			image: 'image/school-girl.svg',
 			title: 'Members',
 			description: 'One girl from each class (6-12) who participate actively'
 		},
 		{
-			image: 'icons/star-user.svg',
+			image: 'image/convenor.svg',
 			title: 'Convenor',
 			description: 'Woman from the School Management Committee who advises'
 		},
 		{
-			image: 'icons/parent.svg',
+			image: 'image/coordinator.svg',
 			title: 'Coordinator',
 			description: 'Teacher-in-charge, reports issues and ensures action'
 		}
@@ -367,11 +367,9 @@
 			<div class="grid grid-cols-1 py-10">
 				<div class="grid grid-cols-1 gap-2 md:grid-cols-4">
 					{#each teamComposition as { image, title, description }}
-						<div class=" space-y-2.5 rounded-2xl bg-white p-4">
-							<div
-								class="bg-maroon-flush-400 flex h-11 w-11 items-center justify-center rounded-lg"
-							>
-								<img src={image} alt="" class="h-6 w-6" />
+						<div class="space-y-2.5 rounded-2xl bg-white p-4">
+							<div class="rounded-lg">
+								<img src={image} alt="" class="h-20 w-20" />
 							</div>
 							<p class="text-xl font-semibold">{title}</p>
 							<span class="block leading-tight text-balance text-zinc-500">{description}</span>
