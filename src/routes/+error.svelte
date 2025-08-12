@@ -8,11 +8,11 @@
 	transition:slide
 >
 	<h1 class="font-bitter text-maroon-flush-600 text-4xl font-bold md:text-9xl">{page.status}</h1>
-	<p class="font-raleway text-lg">
+	<p class="font-raleway text-center text-lg">
 		{#if page.status === 404}
-			Looks like you took a wrong turn. But don’t worry — we all find our way back.
+			Looks like you took a wrong turn. But don't worry — we all find our way back.
 		{:else}
-			We’ll fix this. You keep believing in the cause.
+			We'll fix this. You keep believing in the cause.
 		{/if}
 	</p>
 	<a
