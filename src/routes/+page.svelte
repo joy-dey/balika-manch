@@ -71,7 +71,7 @@
 			image: 'image/mobile-inbox.svg',
 			title: 'Alert Raised in WhatsApp Group',
 			description:
-				'Once a concern is identified, the girl-led club’s chairperson or teacher coordinator shares the details in a district-level WhatsApp group. This direct line includes the District Magistrate, child protection officers, and police — ensuring the case is escalated immediately and confidentially, without delays or paperwork.'
+				"Once a concern is identified, the girl-led club's chairperson or teacher coordinator shares the details in a district-level WhatsApp group. This direct line includes the District Magistrate, child protection officers, and police — ensuring the case is escalated immediately and confidentially, without delays or paperwork."
 		},
 		{
 			image: 'image/police-car.svg',
@@ -83,7 +83,7 @@
 			image: 'image/high-school.svg',
 			title: 'The Girl is Supported to Rejoin School',
 			description:
-				'After stopping the marriage, the system doesn’t stop at intervention — it helps her continue her education. Through ₹5,000 financial aid, emotional support from teachers, and encouragement from peers, the girl is reintegrated into school life with dignity and strength. This step ensures she doesn’t just escape harm — she regains her future.'
+				"After stopping the marriage, the system doesn't stop at intervention — it helps her continue her education. Through ₹5,000 financial aid, emotional support from teachers, and encouragement from peers, the girl is reintegrated into school life with dignity and strength. This step ensures she doesn't just escape harm — she regains her future."
 		}
 	];
 
@@ -211,7 +211,8 @@
 				</blockquote>
 				<div class="flex items-center gap-4">
 					<a
-						href="#contact"
+						href="https://app.balikamanch.org"
+						title="Join the movement"
 						class="bg-maroon-flush-600 rounded-full p-2.5 px-5 font-semibold text-white"
 						>Join the movement</a
 					>
@@ -264,7 +265,7 @@
 						over 150 child marriages in just one year.
 					</p>
 					<p>
-						The movement is supported by the Government of Tripura and the Hon’ble Chief Minister,
+						The movement is supported by the Government of Tripura and the Hon'ble Chief Minister,
 						Dr. Manik Saha, whose commitment to girl child education and empowerment has made Balika
 						Manch a model of community-led impact.
 					</p>
@@ -348,9 +349,9 @@
 			<span class="text-maroon-flush-600">A Girl-Led Movement,</span> Built in Every School
 		</h3>
 		<p>
-			Balika Manch is a school-based girls’ club designed to empower students, raise awareness, and
+			Balika Manch is a school-based girls' club designed to empower students, raise awareness, and
 			prevent child marriage — right from within the classroom. Each club is led by a female teacher
-			and includes one girl from each class (6–12), supported by the school’s management committee.
+			and includes one girl from each class (6-12), supported by the school's management committee.
 			Together, they create a safe, informed, and responsive space for girls to speak up, support
 			one another, and act early when risks arise.
 		</p>
